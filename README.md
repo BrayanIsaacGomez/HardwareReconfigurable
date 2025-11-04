@@ -88,7 +88,7 @@ Una vez que el FPGA está programado, puedes interactuar con el sistema usando l
 
 ---
 ## Demostración
-   ###[Playlist en Youtube](https://www.youtube.com/playlist?list=PLp0enpagyuzkXTCJPyjHd2cq7K81NropY)###
+   **[Playlist en Youtube](https://www.youtube.com/playlist?list=PLp0enpagyuzkXTCJPyjHd2cq7K81NropY)**
    
 ## Trabajo Futuro
 
