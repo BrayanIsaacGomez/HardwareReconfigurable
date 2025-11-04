@@ -34,7 +34,7 @@ Se implementó una tarea básica de conteo:
 
 ### Arquitectura y Plataforma
 
-* **Soft-Procesor:** Se utilizó el **"![Jimmy 8-bit processor]([http://googleusercontent.com/image_collection/image_retrieval/17534906809792347055_0](https://github.com/kuashio/jimmy))"**, un procesador softcore de 8 bits (2 address machine, arquitectura Harvard) proporcionado por el curso e implementado en Verilog.
+* **Soft-Procesor:** Se utilizó el **"[Jimmy 8-bit processor]([http://googleusercontent.com/image_collection/image_retrieval/17534906809792347055_0](https://github.com/kuashio/jimmy))"**, un procesador softcore de 8 bits (2 address machine, arquitectura Harvard) proporcionado por el curso e implementado en Verilog.
 * **Simulación Inicial:** Las pruebas de concepto se realizaron en **EDAPlayground**.
 * **Implementación Física:** Se utilizó **Xilinx Vivado** para la síntesis e implementación.
 * **Hardware:** Tarjeta **Digilent BASYS3**, que cuenta con un FPGA **Artix-7**.
