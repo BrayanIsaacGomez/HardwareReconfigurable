@@ -1,5 +1,7 @@
 # Proyecto: Estudio de Speedup y Eficiencia en un Sistema Multiprocesador
 
+![Tarjeta BASYS 3 - Vista Superior](https://cdn11.bigcommerce.com/s-7gavg/images/stencil/1920w/products/106/6255/Basys3-Rev.C-obl-1000__14394.1749749725.png?c=2)
+
 **Un proyecto final para el curso de Hardware Reconfigurable.**
 
 Este repositorio contiene la implementación y el análisis de un sistema multi-procesador en un FPGA para estudiar el speedup, la eficiencia y los límites prácticos de la paralelización, demostrando la Ley de Amdahl.
@@ -83,7 +85,7 @@ Una vez que el FPGA está programado, puedes interactuar con el sistema usando l
 * ** Botón Arriba (BTN_U):** Presiona este botón para alternar la visualización. Controla un multiplexor que muestra uno de los dos resultados:
     * **Vista 1 (Conteo de Pares):** Los 4 **displays de 7 segmentos** mostrarán el conteo total de números pares encontrados (que debe ser `0093`).
     * **Vista 2 (Ciclos de Reloj):** Los **16 LEDs** de la tarjeta mostrarán los bits `[23:8]` del contador de ciclos (un número de 32 bits), que representa el tiempo total que le tomó al sistema completar la tarea.
-![Tarjeta BASYS 3 - Vista Superior](http://googleusercontent.com/image_collection/image_retrieval/17534906809792347055_0)
+
 ---
 
 ## Trabajo Futuro
