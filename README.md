@@ -1,10 +1,10 @@
-# 🚀 Proyecto: Estudio de Speedup y Eficiencia en un Sistema Multiprocesador
+# Proyecto: Estudio de Speedup y Eficiencia en un Sistema Multiprocesador
 
 **Un proyecto final para el curso de Hardware Reconfigurable.**
 
 Este repositorio contiene la implementación y el análisis de un sistema multi-procesador en un FPGA para estudiar el speedup, la eficiencia y los límites prácticos de la paralelización, demostrando la Ley de Amdahl.
 
-## 🎯 Objetivo
+## Objetivo
 
 El objetivo principal es realizar un estudio del **speedup** y la **eficiencia** al implementar múltiples procesadores (cores) para completar una tarea específica.
 
@@ -22,7 +22,7 @@ Esto se conecta directamente con la **Ley de rendimientos decrecientes**: llega 
 
 ---
 
-## 🛠️ Implementación
+## Implementación
 
 ### La Tarea
 
@@ -43,7 +43,7 @@ Se implementaron y probaron configuraciones con **1, 2 y 4 cores** del procesado
 
 ---
 
-## 📊 Resultados y Análisis
+## Resultados y Análisis
 
 Los resultados obtenidos al ejecutar la tarea en las diferentes configuraciones fueron los siguientes:
 
@@ -60,7 +60,7 @@ Esto **evidencia claramente la Ley de Amdahl**. La eficiencia (Speedup / N° Cor
 
 ---
 
-## ⚙️ Cómo Usar este Repositorio
+## Cómo Usar este Repositorio
 
 ### Prerequisitos
 * [Xilinx Vivado 20XX.X](https://www.xilinx.com/support/download.html)
@@ -74,20 +74,20 @@ Esto **evidencia claramente la Ley de Amdahl**. La eficiencia (Speedup / N° Cor
 4.  Genera el **Bitstream**.
 5.  Conecta la BASYS3 y usa el "Hardware Manager" de Vivado para programar el dispositivo con el bitstream generado.
 
-### 🖥️ Visualización de Resultados
+### Visualización de Resultados
 
 Una vez que el FPGA está programado, puedes interactuar con el sistema usando los botones de la tarjeta:
 
 
 
-* **🔘 Botón Central (BTN_C):** Presiona este botón para hacer un **RESET** del sistema e iniciar la tarea de conteo.
-* **🔼 Botón Arriba (BTN_U):** Presiona este botón para alternar la visualización. Controla un multiplexor que muestra uno de los dos resultados:
+* ** Botón Central (BTN_C):** Presiona este botón para hacer un **RESET** del sistema e iniciar la tarea de conteo.
+* ** Botón Arriba (BTN_U):** Presiona este botón para alternar la visualización. Controla un multiplexor que muestra uno de los dos resultados:
     * **Vista 1 (Conteo de Pares):** Los 4 **displays de 7 segmentos** mostrarán el conteo total de números pares encontrados (que debe ser `0093`).
     * **Vista 2 (Ciclos de Reloj):** Los **16 LEDs** de la tarjeta mostrarán los bits `[23:8]` del contador de ciclos (un número de 32 bits), que representa el tiempo total que le tomó al sistema completar la tarea.
 ![Tarjeta BASYS 3 - Vista Superior](http://googleusercontent.com/image_collection/image_retrieval/17534906809792347055_0)
 ---
 
-## 🔮 Trabajo Futuro
+## Trabajo Futuro
 
 Como una mejora a este proyecto, se podría considerar:
 * Realizar un *upgrade* del procesador a 16 o 32 bits.
