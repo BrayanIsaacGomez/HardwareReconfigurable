@@ -64,8 +64,7 @@ Esto **evidencia claramente la Ley de Amdahl**. La eficiencia (Speedup / N° Cor
 
 ### Prerequisitos
 * [Xilinx Vivado 20XX.X](https://www.xilinx.com/support/download.html)
-* [Digilent Adept](https://digilent.com/reference/software/adept/start) (para programar la FPGA)
-* La tarjeta FPGA [Digilent BASYS3](https://digilent.com/shop/basys-3-artix-7-fpga-trainer-board/)
+* La tarjeta FPGA [Digilent BASYS3](https://digilent.com/shop/introductory-fpga-boards/)
 
 ### Pasos para Replicar
 1.  Clona este repositorio: `git clone ...`
