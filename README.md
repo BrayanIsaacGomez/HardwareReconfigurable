@@ -14,7 +14,7 @@ Esperamos evidenciar la **Ley de Amdahl**, demostrando que añadir más hardware
 
 ---
 
-## 📖 Contexto Teórico: La Ley de Amdahl
+## Contexto Teórico: La Ley de Amdahl
 
 Esta ley, formulada por Gene Amdahl, es fundamental para entender el límite del rendimiento en la computación paralela.
 
